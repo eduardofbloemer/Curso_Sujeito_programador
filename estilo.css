@@ -1,0 +1,27 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #22272e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+  }
+  
+/*# usamos para chamar um id Ex.:#teste (Utilizar para uma tag especifica)*/
+/*. usamos para chamar uma class Ex.:.teste (Utilizar para reutilizar em mais tags)*/
+
